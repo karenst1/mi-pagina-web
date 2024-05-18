@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-image: url(desktop-wallpaper-background-pikachu-pikachu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav {
+    background-color: #d05103;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    display: inline-block;
+    
+}
+
+nav a:hover {
+    background-color: #d40909d0;
+    border-radius: 4px;
+    
+}
+
+/* Content Styles */
+#content {
+    padding: 20px;
+    
+}
+
+.hidden {
+    display: none;
+    
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-size: 40px; /* Tamaño grande */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 5px; /* Espacio inferior */
+    
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Home Page */
+#homePage {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#homePage input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#homePage button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#homePage button:hover {
+    background-color: #bf2121;
+}
+
+/* About Page */
+#aboutPage {
+    padding: 0px;
+}
+
+/* Contact Page */
+#contactPage {
+    padding: 30px;
+}
+
+/* Pokemon Info Page */
+#pokemonInfoPage {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#pokemonInfoPage img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+#pokemonInfoPage p {
+    font-size: 18px;
+    color: #333;
+    
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.result-container input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.result-container button {
+    
+    padding: 10px 20px;
+    background-color: #936262;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.result-container button:hover {
+    background-color: #3a1ac6;
+}
