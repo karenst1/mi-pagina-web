@@ -149,4 +149,25 @@ p {
     margin: 20px 0; /* Espaciado superior e inferior */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 5px 50px;
+    background-color: #ff6a00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #e01332; /* Cambio de color al pasar el cursor */
 }
