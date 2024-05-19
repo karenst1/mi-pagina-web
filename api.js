@@ -73,6 +73,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function displayPokemonInfo(pokemonData) {
         pokemonInfoPage.innerHTML = `
+            <input type="text" id="pokemonName" placeholder="nombre o numero de pokemon">
+            <button id="searchButton">Buscar</button>
             <h2>Pokémon</h2>
             <img src="${pokemonData.sprites.front_default}" alt="Imagen de ${pokemonData.name}">
             <p><strong>Nombre:</strong> ${pokemonData.name}</p> 
