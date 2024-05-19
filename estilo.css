@@ -138,3 +138,15 @@ p {
 .result-container button:hover {
     background-color: #3a1ac6;
 }
+#aboutPage {
+    padding: 0px;
+    text-align: center; /* Centrar el contenido */
+}
+
+#aboutPage img.about-image {
+    max-width: 15%; /* Ajustar la imagen al tamaño del contenedor, por ejemplo, al 50% del ancho */
+    height: auto; /* Mantener la proporción */
+    margin: 20px 0; /* Espaciado superior e inferior */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
